@@ -203,7 +203,7 @@ client.on('message', message => {
         message.guild.fetchBans()
         .then(bans => message.channel.send(`:small_orange_diamond: **Server Ban List :** ${bans.size} `))
   .catch(console.error);
-}//جميع حقوق البوت محفوضة لدى بترولي
+}//جميع حقوق البوت محفوضة لدى DROPIX
 });
 
 
